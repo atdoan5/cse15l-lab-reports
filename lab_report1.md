@@ -1,4 +1,5 @@
-# `cd` command <br/>
+# **Lab Report 1**
+## `cd` command <br/>
 
 **Example with no arguments** <br/>
 ![Image](example1.png) <br/>
