@@ -8,7 +8,7 @@ I received no output when using the `cd` command with no arguments because it is
 <br/>
 The output is not an error because using `cd` with nothing is not supposed to change anything.
 
-**Example with `cd` into a *directory* **
+**Example with `cd` into a *directory*** <br/>
 ![Image](images/example2.png) <br/>
 By using the `cd Lecture1/` command, my current working directory is changed to the Lecture1 folder which we can see with the `pwd` command. <br/>
 The output is not an error since I meant to change the directory to the Lecture1 folder.
