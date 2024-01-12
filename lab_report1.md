@@ -46,7 +46,7 @@
 - When you use `cat` with a directory as an argument, the terminal will output that the directory you just inputed, which in our case is `lecture1` is a directory. The reason this could be is to imply for us to use `cat` with a file instead.
 - This is not an error since the `cat` command is working properly.
 
-** Example with `cat` and  *file*** <br/>
+**Example with `cat` and  *file*** <br/>
 ![Image](images/example9.png)
 - When using `cat` with a file as the argument, the command acts as a reader for the file specified and prints all the text in that file.
 - This output is not an error as `cat` is intended to read the text in a file. 
