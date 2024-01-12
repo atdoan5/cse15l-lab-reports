@@ -30,7 +30,22 @@
 - Since we want to see all the contents in a certian directory, the output was not an error.
 
 **Example with `ls` into a *file*** <br/>
-![Image[(images/example6.png)
+![Image](images/example6.png)
 - Using a file as an argument with `ls` provides us with the output of the location of the file. This can be useful if we want to know if a file exists.
 - This output is not an error because since `ls` does not have the power to read files, it can only provide us with the location. 
 
+## `cat` command <br/>
+
+**Example with no arguments** <br/>
+![Image](images/example7.png)
+- Using `cat` by itself freezes the terminal and produces no output but it also doesn't allow us to type any more commands. This means we cannot use `cat` by itself with no arguments.
+- This output is an error as it renders the terminal useless.
+
+**Example with `cat` and a *directory*** <br/>
+![Image](images/example8.png)
+- When you use `cat` with a directory as an argument, the terminal will output that the directory you just inputed, which in our case is `lecture1` is a directory. The reason this could be is to imply for us to use `cat` with a file instead.
+- This is not an error since the `cat` command is working properly.
+
+** Example with `cat` and  *file*** <br/>
+- When using `cat` with a file as the argument, the command acts as a reader for the file specified and prints all the text in that file.
+- This output is not an error as `cat` is intended to read the text in a file. 
