@@ -25,7 +25,7 @@
 - Here we can see that the first JUnit failed, telling us that the expected, `5`, which was the first index of our expected array, was not what we received, `0`. This tells us that there is something wrong with the underlying method's code.
 - The second JUnit test passed and seems to have passed since a reversed version of an array with no elements should be itself. 
 
-Code before debugging: 
+Code before debugging: </br>
 `
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -35,7 +35,8 @@ static int[] reversed(int[] arr) {
     return arr;
   }
 `
-Code after debugging:
+</br>
+Code after debugging: </br>
 `
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -45,6 +46,7 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 `
+</br>
 To fix the code, I changed the fourth line of the `reversed` method to `newArray[i] = arr[arr.length - i - 1];` and the reason this fixes the bug is because 
 the original code set all the elements of the input array to 0 and then returned the original array, which gave us the symptom earlier of `0` instead of `5`.
 In the new version of the code, the input array is not changed but the newArray's element is set to the input arrays last index and increments down to the element at the first index. We then return the newArray. </br>
