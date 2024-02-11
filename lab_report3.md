@@ -21,7 +21,7 @@
 - In the first JUnit test case, I created an input array that had the values 1, 2, 3, 4, 5 and expected an array of 5, 4, 3, 2, 1 when calling the `reversed` method on the input array. This is meant to be the failure-inducing input
 - In the second JUnit test case, I used an input array that had no values with an expected array being an array with no values as calling `reversed` on the input array will yield in itself. 
 
-![Image of Tests Being Ran](images/week5_1)
+![Image of Tests Being Ran](images/week5_1.png)
 - Here we can see that the first JUnit failed, telling us that the expected, `5`, which was the first index of our expected array, was not what we received, `0`. This tells us that there is something wrong with the underlying method's code.
 - The second JUnit test passed and seems to have passed since a reversed version of an array with no elements should be itself. 
 
@@ -51,5 +51,12 @@ the original code set all the elements of the input array to 0 and then returned
 In the new version of the code, the input array is not changed but the newArray's element is set to the input arrays last index and increments down to the element at the first index. We then return the newArray. </br>
 
 ## Part 2 </br>
+First, I decided I wanted to use the `less` command to talk about and to find out what options I should use of `less`, I went to ChatGPT and asked `Hi, can you provide me with 4 options I could use with the less command in the terminal`. The AI's response was ![ChatGPT output](images/week5_2.png) </br>
+
+So in this image, ChatGPT provides us with the `less` options of `-N`, `-S`, `+F`, and `-i`. 
+
+
+
+
 
 
