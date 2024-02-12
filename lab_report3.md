@@ -95,7 +95,7 @@ aludoan@Andrew:~/cse15l_lab$ less -N docsearch/technical/biomed/bcr583.txt
 aludoan@Andrew:~/cse15l_lab$ less -N docsearch/
 docsearch/ is a directory
 ```
-When using the `less -N` option on afile, `bcr583.txt`, less displays the contents of the file one page at a time, but with the `-N` option, we also get the line numbers on the side which can be useful for remembering which line a certan phrase was said. However, when we try to use the command on a directory, `docsearch` it just returns that `docsearch` is a directory and has similar behavior to `cat` which doesn't have very much of a use case. </br>
+When using the `less -N` option on a file, `bcr583.txt`, less displays the contents of the file one page at a time, but with the `-N` option, we also get the line numbers on the side which can be useful for remembering which line a certan phrase was said. However, when we try to use the command on a directory, `docsearch` it just returns that `docsearch` is a directory and has similar behavior to `cat` which doesn't have very much of a use case. </br>
 
 ```
 
