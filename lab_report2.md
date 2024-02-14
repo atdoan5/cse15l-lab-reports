@@ -51,8 +51,11 @@ class ChatServer {
 
 ## Part 2
 ![Private Key](images/week3_lab_3.png) <br/>
+The absolute path to the private key for my SSH key for logging into `ieng6` on my personal computer is `home/aludoan/.ssh/id_rsa` or `~/.ssh/id_rsa`
 ![Public Key](images/week3_lab_4.png) <br/>
+The absolute path to the public key for my SSH key for logging into `ieng6` on the `ieng6` computer is `/home/linux/ieng6/oce/5n/a5doan/.ssh/auhorized_keys`
 ![Successful Login](images/week3_lab_5.png) <br/>
+By having an ssh key, I can ssh into the lab computers without typing in my username and password each time.
 
 ## Part 3
 
