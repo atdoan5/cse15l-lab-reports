@@ -1,5 +1,6 @@
 # **Lab Report 4**
 
 ## Step 4 <br/>
-`ssh a5doan@ieng6.ucsd.edu<enter>`
-I type in this command in order to connect to the `ieng6` machine.
+
+
+I open the terminal and type in the command `ssh a5doan@ieng6.ucsd.edu<enter>` in order to connect to an `ieng6` machine on campus. <br/> 
