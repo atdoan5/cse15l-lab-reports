@@ -34,7 +34,7 @@ Then, I will type `jjjjjjjjjjjxi1<esc>` to replace the `1` in `index1` to become
 ![change 1 to 2](images/week7_10.png)<br/>
 
 Finally, I will type `:wq<enter>` in order to save the changes I made to the file and exit the file.<br/>
-![save and exit file](images/week7_11.pmg)<br/>
+![save and exit file](images/week7_11.png)<br/>
 
 ## Step 8 <br/>
 Now, I will run the tests again to make sure my debugging worked by doing `bash<space>test.sh<enter>` like earlier. This time, the tests passed.<br/>
