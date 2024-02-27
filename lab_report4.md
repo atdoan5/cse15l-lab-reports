@@ -44,6 +44,7 @@ Now, I need to type a commit message in order to document my change to the file,
 ![commit message](images/week7_14.png)
 
 Finally, I will escape the editor by typing `:wq<enter>` which also saves the edits. and type `git<space>push` in order to update the file on the GitHub repository.
+![push](images/week7_15.png)
 
 
 
