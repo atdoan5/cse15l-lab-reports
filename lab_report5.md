@@ -1,7 +1,7 @@
 <img width="130" alt="image" src="https://github.com/atdoan5/cse15l-lab-reports/assets/156377354/178d8b04-f9c0-41f9-abcf-1c5cabde2428"># **Lab Report 4**
 
 ## Student Post <br/>
-Hi, <br>/
+Hi, <br/>
 I'm working on the `grade.sh` script to grade sample student submissions but whenever I run my script, I can't seem to get the correct number of passed tests or the 
 correct format. I'm not sure whether I'm putting the wrong syntax or I'm just completely doing it wrong. Can anybody help me? 
 <br/>
@@ -78,7 +78,6 @@ echo "Score: $score"
 Hey! It looks like there's a spelling error in part of the code that calculates the passed score. Go through it again and make sure everything is spelled correctly.
 I hope this helps! 
 
-</br>
 
 ## Bug fix <br/>
 The bug was within the last `if` statement in the `grade.sh` file where the student typed `test` instead of `tests` to `grep` from the output of the `JUnit` tests. By changing 
@@ -86,6 +85,7 @@ the spelling, the correct output is given, which is in the screenshot below.
 <br/>
 ![correct output](images/week9_3.png) <br/>
 The bug was clearly just a misspelling error that can ruin the whole purpose of the code, which is meant for grading student submissions (very important!). 
+<br/>
 <br/>
 Also, this bug only appears if the student submission is supposed to <strong>pass</strong> as you can see if you read through the code block. If the student submission
 fails, it should go through the else statement, which doesn't have a misspelling error.
