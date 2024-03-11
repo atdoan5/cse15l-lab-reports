@@ -6,7 +6,7 @@ I'm working on the `grade.sh` script to grade sample student submissions but whe
 correct format. I'm not sure whether I'm putting the wrong syntax or I'm just completely doing it wrong. Can anybody help me? 
 <br/>
 Here is the output of the JUnit tests I ran and what I receive when I run the `grade.sh` file. <br/>
-![JUnit Output](images/week9_1.png) ![grade.sh output](images/weeb9_2.png) <br/>
+![JUnit Output](images/week9_1.png) ![grade.sh output](images/week9_2.png) <br/>
 
 Here is the codeblock of `grade.sh` and I ran the command `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected` to receive the output above
 ```
