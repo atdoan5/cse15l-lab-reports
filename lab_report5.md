@@ -1,4 +1,4 @@
-<img width="130" alt="image" src="https://github.com/atdoan5/cse15l-lab-reports/assets/156377354/178d8b04-f9c0-41f9-abcf-1c5cabde2428"># **Lab Report 4**
+## **Lab Report 4**
 
 ## Student Post <br/>
 Hi, <br/>
