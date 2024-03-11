@@ -71,6 +71,7 @@ else
     score="$passed_tests/$num_tests"
 fi
 
+
 # Output the score
 echo "Score: $score"
 ```
