@@ -100,6 +100,9 @@ fails, it should go through the else statement, which doesn't have a misspelling
 - To fix the bug, you simply need to go to the last `if` statement in the `grade.sh` file and change all the `test` to `tests`.
   Finally, if you run the script again with the same command as earlier, it should now have the correct output corresponding to the `junit-output.txt` file.
 
-
+## Reflection <br/>
+`JDB` was something that I learned in the second half of the quarter that I didn't know before. Whenever I would code in VSCode, I would also see a debugger option but never knew how to use it, so I assumed there were these debugging tools that could help us but I never bothered to learn. Once we were taught `JDB` in 15L, it was very 
+intriguing to see another way to debug code other than just running them through JUnit tests or by changing certain things and printing over and over again. `JDB` can make
+debugging much quicker by allowing us to see everything under the hood when a program fails. `Vim` was also something that was pretty cool. Although I don't think I will be using it as I personally think it's for people who are used to older devices without `Ctrl+F` or a visual interface, it was interesting to see why older people keep telling me to learn Vim. It simply makes you learn to move across the screen efficiently. 
 
 
